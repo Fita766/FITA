@@ -1,0 +1,260 @@
+{
+  "public_identifier": "stéphane-raccah-1baa59aa",
+  "profile_pic_url": "https://media.licdn.com/dms/image/C5603AQHjc8nZM7VT5g/profile-displayphoto-shrink_400_400/0/1517629755215?e=1709769600&v=beta&t=XxhU9pwf_uGYsenahJt_UXgrbFip8g3f3HUgyu5mv3I",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/C4D16AQGWRbKcY3w5xQ/profile-displaybackgroundimage-shrink_200_800/0/1622627108189?e=1709769600&v=beta&t=RJcGVMU1ek2WdU3FusjlY7ScL6SnNeUdfyqKzSJBf30",
+  "first_name": "Stéphane",
+  "last_name": "Raccah",
+  "full_name": "Stéphane Raccah",
+  "follower_count": 1501,
+  "occupation": "DSI at Groupe B2V",
+  "headline": "DSI",
+  "summary": "Avec plus de 20 ans dans le Management de Systèmes d'Information et la Direction de Projets au sein de plusieurs organisations, j'accompagne et je conseille la Direction Générale pour adapter le SI à la Stratégie d’Entreprise.\nCela implique l’audit et l’analyse de l’existant ainsi que la définition des besoins en matière d’Architecture, d’Applicatifs métiers, de Sécurité, d’Organisation, de Gouvernance, d’Optimisation.\n\nSecteur d'activité : \n-\tGrandes Entreprises, PME, ETI, Service public, Sociétés multisites et/ou en 24/24 7j/7, Call center.\n\nRattaché au PDG et membre du CODIR\n-\tConstruction de Schéma Directeur\n-\tCréation et Organisation de DSI\n-\tDirection et pilotage de projets\n\nManagement et encadrement d'une équipe organisée en pôles : \n-\tProjets\n-\tApplicatifs (ERP, CRM, SAGE)\n-\tInfrastructure systèmes, réseau et Télécom\n-\tBase de données : DB2, PostgreSQL, SQL server, MySQL, Oracle\n-\tSupport (Hotline, TMA)\n-\tEtude et Développements (PHP, JAVA, API)\n\nMéthodologies :\n-\tAGILE\n-\tClassique : Cycle en V\n\nGestion :\n- Des prestataires et des fournisseurs (Software et Hardware)\n     o\tNégociation et optimisation des contrats / achats\n- Des budgets annuels (Conception, suivi, prévisionnel)\n- Des risques et principalement de la sécurité des données\n\nDomaines et mots clefs :\nStratégie | Budget | Management | Gouvernance | Organisation DSI | Recrutement | Projets | Audit | Urbanisation | Sécurisation SI | PCA & PCI (plan de secours) | ERP | CRM | Applications Mobiles | Progiciels | BI (Décisionnel) | GED | IT Architecture et Télécom (Réseaux, Systèmes, Virtualisation, Liaisons) | Datawarehouse | Cloud | Digital | Big DATA et Bases de données \n\nCertifications :\n- COBIT 5\n- ITL V3\n- AGILE Scrum\n- Microsoft\n\nMes atouts :\n- Ma personnalité : \n     o\tLeadership, valeur humaine reconnue, vision startup, esprit d’équipe\n- Mes forces : \n     o\tRapidité d’intégration, compréhension des enjeux, vision stratégique\n     o\tCapacité à prendre en charge des situations sensibles et complexes pour ensuite construire une dynamique ambitieuse \n- Ma vision dans le respect de la stratégie d'entreprise :\n     o\tLancer des défis technologiques et accompagner à la transformation\n     o\tCréer une relation gagnant/gagnant avec mes Clients Internes et Externes\n     o\tS’assurer des résultats et garantir les livrables",
+  "country": "FR",
+  "country_full_name": "France",
+  "city": "Sartrouville",
+  "state": "Île-de-France",
+  "experiences": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 2,
+        "year": 2022
+      },
+      "ends_at": null,
+      "company": "Groupe B2V",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/740014/",
+      "title": "DSI",
+      "description": "Groupe B2V gère la protection sociale des salariés de la branche de l’Assurance, il est le référent de l’Enseignement Privé hors contrat et est reconnu dans le monde interprofessionnel. \nDirection technique - Manager de la Direction des Systèmes d'Information - Responsable de la sécurité SI",
+      "location": "Courbevoie, Île-de-France, France",
+      "logo_url": "https://media.licdn.com/dms/image/C4E0BAQEQqC_2aOtSDA/company-logo_400_400/0/1631336412317?e=1712188800&v=beta&t=m7fF4dXPYRmM_0eEovpWCizRjfRRb0JhEtQen-cdHfs"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 7,
+        "year": 2016
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 6,
+        "year": 2021
+      },
+      "company": "I-CAD - Délégataire du Ministère de l'agriculture, de l'agroalimentaire et de la forêt",
+      "company_linkedin_profile_url": null,
+      "title": "Directeur des Systèmes d'Information",
+      "description": "Socièté I-CAD : Base de données Nationale de l' Identifications des Carnivores Domestiques par délégation du Ministère de l'agriculture, de l'agroalimentaire et de la forêt. (Plus importante BDD Européenne dans ce secteur).\nDirection de service Informatique et de Projets\nDomaines : Applicatifs, Architectures, Téléphonie, Sécurité, Organisation, Audit, Conseil, Digital, Big Data",
+      "location": "Région de Paris, France",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2011
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 12,
+        "year": 2015
+      },
+      "company": "GALLY",
+      "company_linkedin_profile_url": null,
+      "title": "Responsable des Systèmes d'Information Groupe / Direction de projets",
+      "description": "Distributions, Services, Bureau d’étude répartis sur 26 sociétés",
+      "location": "Bailly - 78",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 9,
+        "year": 2007
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 8,
+        "year": 2011
+      },
+      "company": "FILASSISTANCE international – Groupe CNP assurances / Caisse des dépôts",
+      "company_linkedin_profile_url": null,
+      "title": "Responsable Informatique et Télécom",
+      "description": null,
+      "location": null,
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 2,
+        "year": 2002
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 9,
+        "year": 2007
+      },
+      "company": "ELMOS France – Groupe allemand  Elmos Semiconductor AG",
+      "company_linkedin_profile_url": null,
+      "title": "Responsable Informatique",
+      "description": null,
+      "location": null,
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 1998
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 1,
+        "year": 2002
+      },
+      "company": "LeasePlan France (Groupe ABN AMRO)",
+      "company_linkedin_profile_url": null,
+      "title": "Responsable du pôle Réseau et Support",
+      "description": "Management d'équipe technique\nGestion de projets\nExpertises + contrôles de la production ainsi que l'exploitation informatiques et télécoms de l'entreprise.",
+      "location": "Garches",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 1996
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 1,
+        "year": 1998
+      },
+      "company": "France Télécom  (Division Multimédia/Internet)",
+      "company_linkedin_profile_url": null,
+      "title": "Responsable Technique",
+      "description": "Responsable informatique du site ",
+      "location": "Paris (Rue de Grenelle)",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 1994
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 1,
+        "year": 1996
+      },
+      "company": "France Habitation ",
+      "company_linkedin_profile_url": null,
+      "title": "Ingénieur Systèmes",
+      "description": null,
+      "location": "Paris",
+      "logo_url": null
+    }
+  ],
+  "education": [
+    {
+      "starts_at": null,
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "COBIT 5 (Gouvernance des Systèmes d’Information)",
+      "school": "Certification IT",
+      "school_linkedin_profile_url": null,
+      "description": "Le CobiT est un cadre de référence pour maitriser la gouvernance et la Gestion des Systèmes d’Information de l’entreprise dans le temps. Il est fondé sur un ensemble de « bonnes pratiques ».",
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": null,
+      "ends_at": null,
+      "field_of_study": "Project Management Professional",
+      "degree_name": "PMP Bootcamp",
+      "school": "Certification IT",
+      "school_linkedin_profile_url": null,
+      "description": "Project Management Professional (PMP) est une méthode mondialement reconnue en gestion de projets. Le programme d'accréditation est géré par le Project Management Institute (PMI).",
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": null,
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "AGILE (Optimisation en gestion de projets)",
+      "school": "Certification IT",
+      "school_linkedin_profile_url": null,
+      "description": "Les méthodes Agiles (Scrum) dans la stratégie des entreprises permettent\nde maîtriser les projets informatiques sous les angles délais, coûts et résultats.",
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": null,
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "ITIL V3 Foundation",
+      "school": "Certification IT",
+      "school_linkedin_profile_url": null,
+      "description": "ITIL (Information Technology Infrastructure) permet d'utiliser les bonnes pratiques (« best practices ») du management du système d'information.\nL'adoption des bonnes pratiques de l'ITIL par une entreprise permet d'assurer à ses clients (internes comme externes) un service répondant à des normes de qualité préétablies au niveau international. ITIL est à la base de la norme BS15000 (première norme de Gestion de Services Informatiques formelle et internationale) un label de qualité proche des normes de l'ISO.",
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": null,
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "Management et Communication",
+      "school": "Expertise",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    }
+  ],
+  "languages": [],
+  "accomplishment_organisations": [],
+  "accomplishment_publications": [],
+  "accomplishment_honors_awards": [],
+  "accomplishment_patents": [],
+  "accomplishment_courses": [],
+  "accomplishment_projects": [],
+  "accomplishment_test_scores": [],
+  "volunteer_work": [],
+  "certifications": [],
+  "connections": 1507,
+  "people_also_viewed": [],
+  "recommendations": [
+    "Maria Lamas\n\n\n\nJ’ai travaillé pendant 4 ans avec Stéphane, que je recommande vivement pour sa capacité à piloter des gros projets (infrastructure, application métier, outils, gestion de données, parc informatique…)\r\n\r\nSon esprit d’équipe, constructif, toujours disponible et orienté « solutions » a toujours été apprécié.\r\n\r\n Très bon manager, il était très estimé de ses collaborateurs.\r\n\r\nToujours force de proposition, il apportait de nouvelles idées lors de sa présence aux comités de direction. Il était sur le terrain, très conscient de l’importance des aspects opérationnels, à la disposition des clients internes. \r\n\r\nL’écoute, la communication et  son excellent relationnel sont des talents  reconnus chez Stéphane.\r\n",
+    "Abderrazak JOUINI\n\n\n\nStéphane est un bon manager, responsable de département système et réseaux. Il nous a aidé et contribuer à l'implémentation complète de la solution Oracle Applications Finance et CRM et gestion des plateformes Oracle mais aussi il était très actif durant toute les phases du projet et surtout lors de la phase de VABF et ce par sa recherche des solutions d'optimisation des environnements Oracle, serveurs Linux, SSO et de l'architecture technique de la solution mise en oeuvre .\r\n  C'est un très bon élément avec double compétence management et architecte capable de mener à bien des grands projets d'intégration ou de mise en place d'infrastructure technique. Merci pour ta réactivité ton implication"
+  ],
+  "activities": [],
+  "similarly_named_profiles": [],
+  "articles": [],
+  "groups": [
+    {
+      "profile_pic_url": "https://media.licdn.com/dms/image/C4D07AQFZ1fmc-krWFg/group-logo_image-shrink_400x400/0/1631006330842?e=1704967200&v=beta&t=PLbV6B6Zbm6wec_HEwPszPd-83uT2794niU_gmtNg1g",
+      "name": "La communauté des cadres et des managers en Europe",
+      "url": "https://www.linkedin.com/groups/13775759"
+    },
+    {
+      "profile_pic_url": "https://media.licdn.com/dms/image/D4D07AQG6Bb5OgkFeKQ/group-logo_image-shrink_400x400/0/1683132483575?e=1704967200&v=beta&t=SszMp1jiSUILLiFbLWrpzU-u6-HzxmGMGzorExu_BwI",
+      "name": "Chief Information Officer (CIO) Network | Technology I Jobs",
+      "url": "https://www.linkedin.com/groups/51825"
+    }
+  ],
+  "skills": [],
+  "inferred_salary": null,
+  "gender": null,
+  "birth_date": null,
+  "industry": null,
+  "extra": null,
+  "interests": [],
+  "personal_emails": [],
+  "personal_numbers": []
+}
