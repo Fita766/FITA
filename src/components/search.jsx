@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 import { setSignature } from '@/libs/signature';
 import { setExpertise } from '@/libs/expertise';
-import { useAuth0 } from "@auth0/auth0-react"; // Import Auth0 hook
+// import { useAuth0 } from "@auth0/auth0-react"; // Import Auth0 hook
 
 // Importation du provider Auth0
 import Auth0ProviderWrapper from "./Auth0ProviderWrapper";
@@ -19,7 +19,7 @@ const Search = () => {
   const [launch, setLaunch] = useState(false); // Nouvel état pour le bouton de téléchargement
   const [datas, setDatas] = useState(undefined)
   // Auth0 hook pour la gestion de l'utilisateur
-  const { loginWithRedirect, logout, user, isAuthenticated, isLoading } = useAuth0();
+  // const { loginWithRedirect, logout, user, isAuthenticated, isLoading } = useAuth0();
 
   const handleSearchChange = (event) => setSearchValue(event.target.value);
   const handleCheckboxChange = (event) => setSelectedOption(event.target.value);
@@ -60,21 +60,21 @@ const Search = () => {
   //   return <div style={{ color: "white" }}>Chargement...</div>; // Affiche un message de chargement
   // }
 
-  if (!isAuthenticated) {
-    return (
-      <div className="card">
-        <div className="card2">
-          <h4>Connexion</h4>
-          <button className="button" onClick={() => loginWithRedirect()}>Se connecter</button>
-        </div>
-      </div>
-    );
-  }
+  // if (!isAuthenticated) {
+  //   return (
+  //     <div className="card">
+  //       <div className="card2">
+  //         <h4>Connexion</h4>
+  //         <button className="button" onClick={() => loginWithRedirect()}>Se connecter</button>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   return (
     <div style={{ color: 'white' }}>
-      <h1>Bienvenue {user.name}</h1>
-      <button className="button" onClick={() => logout()}>Se déconnecter</button>
+      {/* <h1>Bienvenue {user.name}</h1> */}
+      {/* <button className="button" onClick={() => logout()}>Se déconnecter</button> */}
       
       {!showDownloadButton ? ( // Affiche le formulaire ou le bouton selon l'état
         <div className="card">
@@ -144,9 +144,9 @@ const Search = () => {
 // Enveloppe le composant Search avec le Auth0ProviderWrapper
 const SearchPage = () => {
   return (
-    <Auth0ProviderWrapper>
+    // <Auth0ProviderWrapper>
       <Search />
-    </Auth0ProviderWrapper>
+    // </Auth0ProviderWrapper>
   );
 };
 
