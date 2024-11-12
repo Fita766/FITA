@@ -1,16 +1,11 @@
 import Search from "@/components/search";
-import { SearchFunction } from "@/js/recupSearch";
 import styles from "./page.module.css";
 
-export default function Home({ searchParams: { url } }) {
-
-  if (url) {
-    SearchFunction(SearchFunction)
-  }
+export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Search IsURL={!!url}/>
+      <Search/>
     </main>
   );
 }

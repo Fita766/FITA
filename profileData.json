@@ -1,0 +1,387 @@
+{
+  "public_identifier": "anne-laure-lapluye-99833312a",
+  "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/anne-laure-lapluye-99833312a/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135705Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5763fdd415358df1ebbcaf717defc749cac015f787c17f73d2ec9b7aef8d0edd",
+  "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/anne-laure-lapluye-99833312a/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135705Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=192bded046442d3643dafd810afd94cd7ed39ffb5fe0c7f397512164c5cd0630",
+  "first_name": "Anne-Laure",
+  "last_name": "Lapluye",
+  "full_name": "Anne-Laure Lapluye",
+  "follower_count": null,
+  "occupation": "Responsable de projets en charge de la communication et PMO RH à la DSI at Groupe BPCE",
+  "headline": "Responsable de projets communication & PMO RH à la DSI. Ambassadeur Well",
+  "summary": null,
+  "country": "FR",
+  "country_full_name": "France",
+  "city": "Paris",
+  "state": null,
+  "experiences": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 6,
+        "year": 2019
+      },
+      "ends_at": null,
+      "company": "Groupe BPCE",
+      "company_linkedin_profile_url": "https://fr.linkedin.com/company/bpce",
+      "company_facebook_profile_url": null,
+      "title": "Responsable de projets en charge de la communication et PMO RH à la DSI",
+      "description": "-Contribuer et accompagner les projets relatifs aux fonctions communication et change de la DSI,\n-Coordonner la rédaction et publication de news letter mensuelles sous WordPress\n-Organiser les talks mensuels de la direction : recherche des sujets, accompagnent des speakers, montage de teasers sous Quik, iMovie et 2Emotion\n-Produire des contenus de communication : infographies, vidéos\n-Organisation et animation de réunions bimensuelles d’accompagnement du changement avec les managers \n-Animation du Groupe Yammer de la DSI\n-Publication d’indicateurs de communication mensuels\n-PMO transverse entre DRH et managers de la DSI sur le recrutement de collaborateurs : animation d’1 réunion hebdomadaire avec la RH et CR des actions à mener\n-Réalisation de sondages bi-mensuels : analyse et plans d’action",
+      "location": "Paris 13, Île-de-France, France",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bpce/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135706Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2ec973e1a21edb21b5131ba1937c82a774a0bbe666dd2d4b266b2bc8c82d5f65"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 9,
+        "year": 2016
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 6,
+        "year": 2019
+      },
+      "company": "Groupe BPCE",
+      "company_linkedin_profile_url": "https://fr.linkedin.com/company/bpce",
+      "company_facebook_profile_url": null,
+      "title": "Responsable de projets transverses au sein du pôle Reporting Prudentiel Groupe",
+      "description": "-Conduite de projets liés aux évolutions réglementaires (SURFI, FINREP, MREL, TLOF, IFRS9, risque de crédit, ItoA...). \n-Coordination de projets avec les différents acteurs, animation des comités, rédaction des expressions de besoin, cadrage, recettes.               -Animation de la conduite du changement auprès du réseau, formation des utilisateurs...\nFormation suivie sur 2018-2019 pour être ambassadeur digital au sein de la direction.\n-Renforcement de la transversalité des travaux de production des reporting prudentiel,\n-Propositions d'amélioration des processus existants (traitement des MEE dans les phases COREP, FINREP / traitement des garanties dans le reporting FINREP),\n-Rédaction d'expression de besoins prudentielles suite aux impacts de la norme IFRS9 (modification de la phase de rapprochement compta/risque, revue de l'ensemble des traitements existants sous BFC),\n-Participation aux projets I to A, MREL, IFRS9, indicateurs clés pour les mandataires finance de Caisses et des Banques.",
+      "location": "Paris",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bpce/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135706Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2ec973e1a21edb21b5131ba1937c82a774a0bbe666dd2d4b266b2bc8c82d5f65"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2011
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 8,
+        "year": 2016
+      },
+      "company": "Groupe BPCE",
+      "company_linkedin_profile_url": "https://fr.linkedin.com/company/bpce",
+      "company_facebook_profile_url": null,
+      "title": "Responsable de la mise en oeuvre du projet FINREP et de la production du reporting Groupe",
+      "description": "-Analyse des règlements européens et organisation des ateliers pour mutualiser les processus d'alimentation sans engendrer d'effets de bord sur reporting COREP,\n-Participation aux réunions de travail avec les autres banques de la place,\n-Analyse et priorisation des enjeux dans le cadre de la réduction des délais de production pour l'ensemble de la profession,\n-Conduite de réunion avec les normes comptables, direction des risques et établissements pilotes,\n-Rédaction des expressions de besoin Groupe,\n-Préparation et animation des réunions nationales avec les filières comptables et risques dans le cadre de la conduite du changement,\n-Organisation de la production des arrêtés trimestriels : animation des audios, rédaction des points d'arrêté, comptes rendus et production du reporting Groupe,\n-Participation aux travaux de reporting tactiques BCE (MSU, SREP, STE),",
+      "location": "Paris",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bpce/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135706Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2ec973e1a21edb21b5131ba1937c82a774a0bbe666dd2d4b266b2bc8c82d5f65"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2007
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 12,
+        "year": 2010
+      },
+      "company": "Groupe BPCE",
+      "company_linkedin_profile_url": "https://fr.linkedin.com/company/bpce",
+      "company_facebook_profile_url": null,
+      "title": "Responsable du projet SURFI GROUPE",
+      "description": "-Mise en oeuvre de la réforme quinquennale des statistiques monétaires pour production des reporting à l'Autorité de Contrôle Prudentiel et de résolution (ACPR),\n-Rédaction de l'appel d'offres pour choix du nouvel outil centralisé Groupe INVOKE,\n-Animation des réunions avec les pilotes et les responsables MOA/MOE des plateformes SI,\n-rédaction des expressions de besoins,\n-Organisation de la conduite du changement pour réunions nationales,\n-Animation de la filière comptable.",
+      "location": "Paris",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bpce/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135706Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2ec973e1a21edb21b5131ba1937c82a774a0bbe666dd2d4b266b2bc8c82d5f65"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 4,
+        "year": 2002
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 4,
+        "year": 2006
+      },
+      "company": "CNCE",
+      "company_linkedin_profile_url": null,
+      "company_facebook_profile_url": null,
+      "title": "Chargée d’études et veille réglementaire prudentielle",
+      "description": null,
+      "location": null,
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2000
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 12,
+        "year": 2001
+      },
+      "company": "FORTIS BANQUE",
+      "company_linkedin_profile_url": null,
+      "company_facebook_profile_url": null,
+      "title": "Contrôleur interne",
+      "description": "Rédaction des processus d'activité visant à respecter la norme CRBF n°97-02 et à améliorer le contrôle des risques de l'établissement",
+      "location": "Paris",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 1999
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 6,
+        "year": 1999
+      },
+      "company": "UCPA",
+      "company_linkedin_profile_url": "https://fr.linkedin.com/company/ucpa",
+      "company_facebook_profile_url": null,
+      "title": "Contrôleur de gestion",
+      "description": null,
+      "location": "Paris",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ucpa/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135706Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f5cf69cc96df76cb86eeeb0d9efe05e36fa6b8ad849728eb13bda43234fe637d"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": null,
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "Digital Transformation facilitator Certificate",
+      "school": "ESCP Business School",
+      "school_linkedin_profile_url": "https://fr.linkedin.com/school/escp-business-school/",
+      "school_facebook_profile_url": null,
+      "description": null,
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/escp-business-school/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135707Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b32d822f3ea9119540cff77a40c9ef7d49d3179b21f1d7008f35d3352e148b1f",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2001
+      },
+      "ends_at": null,
+      "field_of_study": "Finances d’entreprise",
+      "degree_name": "DESS Finance d'entreprises",
+      "school": "Université d'Evry-Val d'Essonne",
+      "school_linkedin_profile_url": "https://fr.linkedin.com/school/univevry/",
+      "school_facebook_profile_url": null,
+      "description": null,
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/univevry/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135707Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b9f722f2cc18cdee856758c094377363d238ed3a6e840f99ae13dbd41d2520ef",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2000
+      },
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "Maîtrise Marchés Financiers",
+      "school": "ESG Finance",
+      "school_linkedin_profile_url": "https://fr.linkedin.com/school/esg-finance/",
+      "school_facebook_profile_url": null,
+      "description": null,
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQEOZVBsvNMMFg/company-logo_100_100/0/1519911909625?e=2147483647&v=beta&t=HxrhleWdTnV0JQyCnlCMl9VUGugivRTEGea9_TK0wfE",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 1999
+      },
+      "ends_at": null,
+      "field_of_study": null,
+      "degree_name": "Licence en Finance et contrôle de gestion",
+      "school": "Novancia Business School Paris",
+      "school_linkedin_profile_url": "https://fr.linkedin.com/school/novancia-business-school-paris/",
+      "school_facebook_profile_url": null,
+      "description": null,
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/novancia-business-school-paris/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240709%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240709T135707Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=4e6dd1a0fef4de577a4d33768ff78b2d63b21802c36a159e70d53754d40d2a34",
+      "grade": null,
+      "activities_and_societies": null
+    }
+  ],
+  "languages": [
+    "Anglais",
+    "Espagnol"
+  ],
+  "accomplishment_organisations": [],
+  "accomplishment_publications": [],
+  "accomplishment_honors_awards": [],
+  "accomplishment_patents": [],
+  "accomplishment_courses": [],
+  "accomplishment_projects": [],
+  "accomplishment_test_scores": [],
+  "volunteer_work": [],
+  "certifications": [],
+  "connections": 483,
+  "people_also_viewed": [
+    {
+      "link": "https://fr.linkedin.com/in/marie-le-gra%C3%ABt-b77a0420",
+      "name": "Marie Le Graët",
+      "summary": "Responsable solutions Business Partner chez Banque Populaire",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/mariannick-mateos-bonnaud-99601855",
+      "name": "Mariannick Mateos (Bonnaud)",
+      "summary": "Responsable du contrôle de gestion sociale et du Workforce planning chez Groupe BPCE",
+      "location": "Paris"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/julien-tardif-b463315b",
+      "name": "Julien Tardif",
+      "summary": "Product Owner chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/picard-mikael-568567b6",
+      "name": "PICARD MIKAEL",
+      "summary": "Chef de Projet chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/gr%C3%A9goire-jaffre-39361434",
+      "name": "Grégoire Jaffre",
+      "summary": "Ingénieur risques chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/thibaudbonnetdepaillerets",
+      "name": "Thibaud Bonnet de Paillerets",
+      "summary": "Chef de mission chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-dufour-a9b11a31",
+      "name": "Frédéric Dufour",
+      "summary": "DSI BPCE SA chez BPCE",
+      "location": "Paris"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/emmanuelvivien",
+      "name": "Emmanuel Vivien",
+      "summary": "Expert Solutions, Big Data & Fintechs chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/boubeker-benjilany",
+      "name": "Boubeker Benjilany",
+      "summary": "IT Business Analyst",
+      "location": "Châtenay-Malabry"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/fgesbert",
+      "name": "Franck Gesbert",
+      "summary": "Chef de projet Innovation & Data Science chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/pierre-antoine-castagnetti-86967a4b",
+      "name": "Pierre-Antoine Castagnetti",
+      "summary": "Chargé de missions entreprises et financements spécialisés chez Banque Populaire Alsace Lorraine Champagne (BPALC)",
+      "location": "Paris"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/arnaud-geraud-0a7832ab",
+      "name": "Arnaud GERAUD",
+      "summary": "Chef de mission - Inspection Générale chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/in%C3%A8s-sahraoui-006827109",
+      "name": "Inès Sahraoui",
+      "summary": "Looking for new job opportunities",
+      "location": "France"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/k%C3%A9vin-messouak",
+      "name": "Kévin Messouak",
+      "summary": "Manager Projets Risques",
+      "location": "Paris"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/eden-cohen-27525a133",
+      "name": "eden cohen",
+      "summary": "Responsable support fonctionnel",
+      "location": "Neuilly-sur-Seine"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/binh-nguyen-8009281",
+      "name": "Binh Nguyen",
+      "summary": "Architecte SI",
+      "location": "Issy-les-Moulineaux"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/aur%C3%A9lie-lobato-gon%C3%A7alves-b694a525",
+      "name": "Aurélie Lobato Gonçalves",
+      "summary": "Adjoint au Directeur des Fonctions Transverses - Direction des Achats at Société Générale",
+      "location": "Paris et périphérie"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/davy-eugene-6a9802a6",
+      "name": "Davy EUGENE",
+      "summary": "Manager de domaine Gestion de la Demande chez Groupe BPCE",
+      "location": "Paris"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/claire-cavazzoni-8b2169b2",
+      "name": "Claire Cavazzoni",
+      "summary": "Pilotage financier chez Groupe BPCE",
+      "location": "France"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/laurenthavard",
+      "name": "Laurent Havard",
+      "summary": "Expert DevOps chez Groupe BPCE",
+      "location": "Paris et périphérie"
+    }
+  ],
+  "recommendations": [
+    "Delphine Azernour\n      \n          \n\n\n\n              \n                \n        \n              \n  \n\n      \n          J’ai eu la chance de travailler main dans la main avec Anne-Laure pendant 6 mois. Ce fut un plaisir de travailler à ses côtés : passionnée par son travail, toujours pertinente, juste et humaine. J’espère que nos chemins se recroiseront : 6 mois, c’était trop court ! 😉"
+  ],
+  "activities": [
+    {
+      "title": "Lorsque je suis parti faire ma retraite solo il y a 3 semaines, j’ai reçu des centaines de conseils de lecture (merci ! 🙏) et on m’a posé une…",
+      "link": "https://fr.linkedin.com/posts/victor-carreau_lorsque-je-suis-parti-faire-ma-retraite-solo-share-6922473042459672576-9S-5",
+      "activity_status": "Aimé par Anne-Laure Lapluye"
+    },
+    {
+      "title": "https://lnkd.in/gVkwqsvu",
+      "link": "https://fr.linkedin.com/posts/arnaud-beyne-359967162_la-soci%C3%A9t%C3%A9-g%C3%A9n%C3%A9rale-va-changer-de-nom-mais-share-6922277912817668096-kLbC",
+      "activity_status": "Aimé par Anne-Laure Lapluye"
+    },
+    {
+      "title": "Que du #bonheur 🤩 partagé avec la team Brain & Nuts menée par la punchy Justine Lambert fondatrice de BRAINS with BENEFITS 👍Merci à toutes pour…",
+      "link": "https://fr.linkedin.com/posts/justinelambert_salut-les-muscl%C3%A9s-nous-voici-au-salon-share-6917761210075475968-Ts33",
+      "activity_status": "Aimé par Anne-Laure Lapluye"
+    }
+  ],
+  "similarly_named_profiles": [],
+  "articles": [],
+  "groups": [
+    {
+      "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C5607AQHh8ZLsgaO9NA/group-logo_image-shrink_92x92/0/1630996518517?e=2147483647&v=beta&t=UKtB7ss0rrnXgKT-tq5g8hDVVw7ygTx-AnJ5tZVHYTg",
+      "name": "Femmes et Hommes de tête et de coeur",
+      "url": "https://www.linkedin.com/groups/13806839"
+    }
+  ],
+  "skills": [],
+  "inferred_salary": null,
+  "gender": null,
+  "birth_date": null,
+  "industry": null,
+  "extra": null,
+  "interests": [],
+  "personal_emails": [],
+  "personal_numbers": []
+}

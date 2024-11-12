@@ -1,17 +1,10 @@
-import creds from '@/json/credentials.json';
 import axios from 'axios';
 import fs from 'fs/promises';
-import { JWT } from 'google-auth-library';
+import { readAPI, writeAPI } from './apiLimiter.js'; // Assurez-vous que ces fonctions fonctionnent correctement pour gérer les appels API
+import { getFirstEmail, getPersonality, getSecondEmail, getThirdEmail } from './TestGPT.js';
+import { findEmail } from './dropcontact.js';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
-
-const linkDefault = 'https://www.linkedin.com/in/thomas-millet-28609434/';
-/* 
-const apiKey = process.env.APIKEY
-const apiKeyGS = process.env.APIKEYGS
-*/
-
-
-// Récupère les données de l'agent Phantombuster depuis le fichier d'environnement
+import { JWT } from 'google-auth-library';
 require('dotenv').config();
 const serviceAccountAuth = new JWT({
   email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
@@ -21,72 +14,73 @@ const serviceAccountAuth = new JWT({
   ],
 });
 
-// List des headers pour le Google Sheet
-const headers = ['Timestamp', 'FirstName', 'LastName', 'CompanyName', 'LinkedInURL'];
+const GPTAPI = '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'; // Clé API OpenAI
 
-
-//ENVOIE DE LIEN A PROXYCURL
-
-export async function fetchProfilePicture (link) {
+export async function fetchProfilePicture(link) {
     try {
-        const response = await axios.get('https://nubela.co/proxycurl/api/v2/linkedin', {
+        const { data, error } = await axios.get('https://nubela.co/proxycurl/api/v2/linkedin', {
             params: {
                 'linkedin_profile_url': link,
             },
             headers: {
-                'Authorization': 'Bearer u91wm9QhDGTb9QKg29FjiA	',
+                'Authorization': 'Bearer joE7mVqkxjuPXlNS9kmtHA',
             },
         });
 
-        profileData = response.data;
-        // Sauvegarde des données dans un fichier JSON
-        await fs.writeFile('profileData.json', JSON.stringify(profileData, null, 2));
-        // Mis à jour du Google Sheet
-        await updateGoogleSheet(link, profileData);
+        if (!data) {
+            console.log(error);
+            return;
+        }
+
+        const email = await findEmail(data, link);
+        if (!email) {
+            console.error('email non trouver');
+            return
+        };
+        const personality = await getPersonality(data);
+        if (!personality) {
+            console.error('personality par gpt vide');
+            return
+        };
+
+        const firstMail = await getFirstEmail(personality, data);
+        if (!firstMail) {
+            console.error('emailContent 1 par gpt vide');
+            return
+        };
+
+        const secondMail = await getSecondEmail(firstMail);
+        if (!secondMail) {
+            console.error('emailContent 2 par gpt vide');
+            return
+        };
+
+        const thirdMail = await getThirdEmail(firstMail, secondMail, personality, data);
+        if (!thirdMail) {
+            console.error('emailContent 3 par gpt vide');
+            return
+        };
+
+        return { personality, firstMail, secondMail, thirdMail, email, data };
     } catch (error) {
         console.error(error);
     }
 }
 
-
-// ENVOIE DE DONNEE A GOOGLE SHEET
-async function updateGoogleSheet(link, profileDataLK) {
-    const doc = new GoogleSpreadsheet('1wApnLeSHib2ni74gVpN-zhRrH02lUWt6V-c_J3Gx-rE', serviceAccountAuth);
-    try {
-        await doc.loadInfo();
-        const sheet = doc.sheetsByIndex[ 0 ];
-        // Ajout des headers
-        sheet.setHeaderRow(headers);
-
-        // Ajout des données
-        await sheet.addRow({
-            Timestamp: new Date(),
-            FirstName: profileDataLK.first_name,
-            LastName: profileDataLK.last_name,
-            CompanyName: profileDataLK.experiences[0]?.company || 'Aucune entreprise',
-            LinkedInURL: link,
-        });
-
-        console.log('Données ajoutées à Google Sheet avec succès.');
-    } catch (error) {
-        console.error('Erreur lors de la mise à jour de Google Sheet:', error);
-    }
-}
-
-// // ENVOIE DE LIEN A GOOGLE SHEET
 export async function updateSearchLink (link) { 
     const doc = new GoogleSpreadsheet('1Ypkfu2mehLVKP1M5F3sDKQmuwOWC3elYNwKdrVu0Y-c', serviceAccountAuth);
+    
     try {
-        await doc.loadInfo();
-        const sheet = doc.sheetsByIndex[ 0 ];
-        await sheet.clear();
+        await readAPI(() => doc.loadInfo());
+        const sheet = await readAPI(() => doc.sheetsByIndex[ 0 ]);
+        await readAPI(() => sheet.clear());
         // Remplacement du lien
-        await sheet.loadCells('A1:E10');
-        const a1 = sheet.getCell(0, 0);
+        await readAPI(() => sheet.loadCells('A1:E10'));
+        const a1 = await readAPI(() => sheet.getCell(0, 0));
 
         a1.value = link || linkDefault;
         // Mis à jour du Google Sheet
-        await sheet.saveUpdatedCells();
+        await writeAPI(() => sheet.saveUpdatedCells());
         console.log('Données ajoutées à Google Sheet avec succès.');
     } catch (error) {
         console.error('Erreur lors de la mise à jour de Google Sheet:', error);
@@ -94,32 +88,5 @@ export async function updateSearchLink (link) {
 
 }
 
-// ENVOIE DES DONNES A LGM
 
-// async function createLead() {
-//     await new Promise(resolve => setTimeout(resolve, 60000));
 
-//     leadData.firstname = profileData.first_name;
-//     leadData.lastname = profileData.last_name;
-//     const firstExperience = profileData.experiences && profileData.experiences.length > 0 ? profileData.experiences[0] : null;
-//     leadData.companyName = firstExperience ? firstExperience.company : '';
-//     leadData.linkedinUrl = link;
-
-//     try {
-//         const response = await axios.post(`https://apiv2.lagrowthmachine.com/flow/leads?apikey=${apiKey}`, leadData);
-
-//         console.log(response.data);
-//     } catch (error) {
-//         console.error(error);
-//     }
-// }
-
-// // Appel de la fonction pour récupérer les données
-// fetchProfilePicture().then(() => {
-//     // Appel de la fonction pour mettre à jour Google Sheet
-//     updateGoogleSheet().then(() => {
-//         // Appel de la fonction pour créer le lead après 60 secondes
-//         // createLead();
-//         console.log('Fin du script.');
-//     });
-// });
